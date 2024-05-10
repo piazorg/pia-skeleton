@@ -1,0 +1,13 @@
+IMPORTANT
+=========
+
+Do not modify the Modules/* directly. Instead open a PR on the resp. GitHub respository.
+Be aware that the files of the modules underneath this directory will be overwritten on subsequent updates!
+
+----------------------------------------------------------------------------------------------------------------------------
+
+BELANGRIJK
+==========
+
+Breng niet rechtstreeks wijzigingen toe aan de Modules/*. Open daarentegen een PR op de respectievelijke GitHub respository.
+Wees ervan bewust dat de files van de modules onder deze directorie zullen worden overschreven bij opvolgende updates!

@@ -1,0 +1,8 @@
+{
+    "http-basic": {
+        "satis.pia-zorg.nl": {
+            "username": "...",
+            "password": "..."
+        }
+    }
+}
