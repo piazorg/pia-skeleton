@@ -91,6 +91,9 @@ return [
             'prefix_indexes' => true,
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
+            'options' => extension_loaded("pdo_sqlsrv") ? [
+                PDO::SQLSRV_ATTR_FETCHES_NUMERIC_TYPE => true,
+            ] : [],
         ],
 
     ],
