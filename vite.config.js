@@ -32,9 +32,10 @@ async function getConfig() {
     resolve: {
       alias: {
         '@Core': path.resolve(__dirname, 'Modules/Core/resources/js'),
-        '@Vendor': path.resolve(__dirname, 'Vendor'),
+        '@Vendor': path.resolve(__dirname, 'vendor'),
         $theme: path.resolve(__dirname, 'resources/theme')
       },
+      preserveSymlinks: true,
     },
     build: {
       chunkSizeWarningLimit: 1600,
