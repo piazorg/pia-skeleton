@@ -8,6 +8,17 @@
         "dev": "vite",
         "build": "vite build"
     },
+    "engines": {
+        "node": ">=18"
+    },
+    "cpu": [
+        "arm64",
+        "x64"
+    ],
+    "os": [
+        "linux",
+        "win32"
+    ],
     "devDependencies": {
         "@vitejs/plugin-vue": "^5.0.0",
         "autoprefixer": "^10.4.19",
