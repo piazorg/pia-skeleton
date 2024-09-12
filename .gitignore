@@ -20,4 +20,4 @@ yarn-error.log
 studio.json
 .phpactor.json
 docker-compose.override.yml
-deploy.sh
+deploy*.sh
